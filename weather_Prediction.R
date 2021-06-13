@@ -283,7 +283,7 @@ y_pred_rf = ifelse(predTrain > 0.5, 1, 0)
 
 cm_rf1 = table(test_set[,12], predTrain)
 cm_rf1
-
+#
 # Making the Confusion Matrix
 # View the forest results.
 plot(model2)
